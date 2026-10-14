@@ -158,20 +158,6 @@
                         </div>
                         <div className="p-6 grid gap-4">
                             <h2 className="text-xs font-bold text-gray-400 uppercase tracking-wider">My Ventures</h2>
-                            <a href="https://snappath.club" target="_blank" rel="noopener noreferrer" className="group relative overflow-hidden rounded-2xl bg-zinc-900 text-white p-5 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 block cursor-pointer">
-                                <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"><Icons.Camera size={80}/></div>
-                                <div className="relative z-10 flex justify-between items-start">
-                                    <div>
-                                        <div className="flex items-center gap-2 mb-1">
-                                            <div className="p-1.5 bg-white/10 rounded-lg backdrop-blur-sm"><Icons.Camera size={18} className="text-blue-300"/></div>
-                                            <span className="font-bold text-lg">SnapPath</span>
-                                        </div>
-                                        <p className="text-gray-400 text-xs mb-3">Founder</p>
-                                        <p className="text-sm text-gray-300">街頭攝影社群 App<br/>捕捉城市瞬間，連結影像創作者。</p>
-                                    </div>
-                                    <Icons.ArrowUpRight className="text-gray-500 group-hover:text-white transition-colors"/>
-                                </div>
-                            </a>
                             <button onClick={()=>setActiveProject(gPlusData)} className="w-full text-left group relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 text-white p-5 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 block cursor-pointer">
                                 <div className="absolute -bottom-4 -right-4 p-4 opacity-10 group-hover:opacity-20 transition-opacity"><Icons.Zap size={100}/></div>
                                 <div className="relative z-10 flex justify-between items-start">
@@ -187,6 +173,20 @@
                                     <div className="p-1 bg-white/10 rounded-full group-hover:bg-white/20 transition-colors"><Icons.Activity className="text-orange-100 group-hover:text-white" size={20}/></div>
                                 </div>
                             </button>
+                            <a href="https://snappath.club" target="_blank" rel="noopener noreferrer" className="group relative overflow-hidden rounded-2xl bg-zinc-900 text-white p-5 shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 block cursor-pointer">
+                                <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity"><Icons.Camera size={80}/></div>
+                                <div className="relative z-10 flex justify-between items-start">
+                                    <div>
+                                        <div className="flex items-center gap-2 mb-1">
+                                            <div className="p-1.5 bg-white/10 rounded-lg backdrop-blur-sm"><Icons.Camera size={18} className="text-blue-300"/></div>
+                                            <span className="font-bold text-lg">SnapPath</span>
+                                        </div>
+                                        <p className="text-gray-400 text-xs mb-3">Founder</p>
+                                        <p className="text-sm text-gray-300">街頭攝影社群 App<br/>捕捉城市瞬間，連結影像創作者。</p>
+                                    </div>
+                                    <Icons.ArrowUpRight className="text-gray-500 group-hover:text-white transition-colors"/>
+                                </div>
+                            </a>
                         </div>
                         <div className="px-6 pb-4">
                             <h2 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Content</h2>
